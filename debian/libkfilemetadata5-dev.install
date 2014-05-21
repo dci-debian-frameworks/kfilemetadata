@@ -1,0 +1,3 @@
+usr/include/kfilemetadata/
+usr/lib/*/libkfilemetadata.so
+usr/lib/*/cmake/KFileMetaData/
