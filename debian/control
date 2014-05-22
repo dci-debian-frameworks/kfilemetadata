@@ -69,6 +69,7 @@ Package: libkfilemetadata5-dev
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Conflicts: libkfilemetadata-dev
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
