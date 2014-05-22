@@ -1,2 +1,2 @@
-usr/lib/x86_64-linux-gnu/libkfilemetadata.so.4*
-usr/lib/x86_64-linux-gnu/libkfilemetadata.so.5
+usr/lib/*/libkfilemetadata.so.4*
+usr/lib/*/libkfilemetadata.so.5
