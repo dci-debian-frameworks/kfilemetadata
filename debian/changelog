@@ -1,7 +1,11 @@
 kfilemetadata (4:4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream RC release
   * Upstream renamed to kfilemetadata
+
+  [ Scarlett Clark ]
+  * Fix install filesrename package to match lib. 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 14:36:36 +0200
 

@@ -1,0 +1,3 @@
+usr/include/KF5/KFileMetaData/
+usr/lib/*/cmake/KF5FileMetaData/
+usr/lib/*/libKF5FileMetaData.so

@@ -30,20 +30,20 @@ Homepage: https://projects.kde.org/projects/kde/workspace/kfilemetadata
 Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kfilemetadata5
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kfilemetadata5
 
-Package: libkfilemetadata5
+Package: libkf5filemetadata5
 Section: libs
 Architecture: any
-Depends: libkfilemetadata-data (= ${source:Version}),
+Depends: libkf5filemetadata-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Multi-Arch: same
-Recommends: libkfilemetadata-bin (= ${binary:Version})
+Recommends: libkf5filemetadata-bin (= ${binary:Version})
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
  kfilemetadata is part of the KDE Plasma desktop.
 
-Package: libkfilemetadata-data
+Package: libkf5filemetadata-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
@@ -54,7 +54,7 @@ Description: library for extracting file metadata
  .
  This package contains arch independent data files.
 
-Package: libkfilemetadata-bin
+Package: libkf5filemetadata-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
@@ -65,11 +65,11 @@ Description: library for extracting file metadata
  .
  This package contains the file type plugins.
 
-Package: libkfilemetadata5-dev
+Package: libkf5filemetadata5-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkfilemetadata5 (= ${binary:Version})
-Conflicts: libkfilemetadata-dev
+Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5filemetadata5 (= ${binary:Version})
+Conflicts: libkf5filemetadata-dev
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
@@ -77,11 +77,11 @@ Description: library for extracting file metadata
  .
  This package contains the development files.
 
-Package: kfilemetadata5-dbg
+Package: kf5filemetadata5-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: libkfilemetadata5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5filemetadata5 (= ${binary:Version}), ${misc:Depends}
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
