@@ -7,6 +7,7 @@ kfilemetadata (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update install file
   * Remove -data package
   * Fix Vcs 
+  * Add Replace -data 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:17:20 +0200
 

@@ -36,6 +36,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
 Multi-Arch: same
+Replaces: libkf5filemetadata-data
 Recommends: libkf5filemetadata-bin (= ${binary:Version})
 Description: library for extracting file metadata
  This library is for extracting file metadata.
