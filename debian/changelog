@@ -1,6 +1,12 @@
 kfilemetadata (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
+
+  [ Scarlett Clark ]
+  * Update install file
+  * Remove -data package
+  * Fix Vcs 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:17:20 +0200
 
