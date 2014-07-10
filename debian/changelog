@@ -1,3 +1,9 @@
+kfilemetadata (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:17:20 +0200
+
 kfilemetadata (4:4.98.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
