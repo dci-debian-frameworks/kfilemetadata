@@ -1,4 +1,4 @@
-kfilemetadata (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+kfilemetadata (4:5.0.0a-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -8,6 +8,7 @@ kfilemetadata (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Remove -data package
   * Fix Vcs 
   * Add Replace -data 
+  * New upstream tarball
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:17:20 +0200
 
