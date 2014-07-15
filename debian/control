@@ -30,14 +30,24 @@ Homepage: https://projects.kde.org/projects/kde/workspace/kfilemetadata
 Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kfilemetadata
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kfilemetadata
 
-Package: libkf5filemetadata5
+Package: libkf5filemetadata1
 Section: libs
 Architecture: any
-Depends: ${misc:Depends},
+Depends: libkf5filemetadata-data (= ${binary:Version}),
+         ${misc:Depends},
          ${shlibs:Depends}
 Multi-Arch: same
-Replaces: libkf5filemetadata-data
 Recommends: libkf5filemetadata-bin (= ${binary:Version})
+Description: library for extracting file metadata
+ This library is for extracting file metadata.
+ .
+ kfilemetadata is part of the KDE Plasma desktop.
+
+Package: libkf5filemetadata-data
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: foreign
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
@@ -54,10 +64,12 @@ Description: library for extracting file metadata
  .
  This package contains the file type plugins.
 
-Package: libkf5filemetadata5-dev
+Package: libkf5filemetadata1-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5filemetadata5 (= ${binary:Version})
+Depends: libkf5filemetadata1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: libkf5filemetadata-dev
 Description: library for extracting file metadata
  This library is for extracting file metadata.
@@ -66,11 +78,11 @@ Description: library for extracting file metadata
  .
  This package contains the development files.
 
-Package: kf5filemetadata5-dbg
+Package: kf5filemetadata1-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: libkf5filemetadata5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5filemetadata1 (= ${binary:Version}), ${misc:Depends}
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
