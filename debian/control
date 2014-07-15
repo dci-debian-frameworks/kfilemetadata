@@ -33,6 +33,8 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kfileme
 Package: libkf5filemetadata1
 Section: libs
 Architecture: any
+Conflicts: libkf5filemetadata5
+Replaces: libkf5filemetadata5
 Depends: libkf5filemetadata-data (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}

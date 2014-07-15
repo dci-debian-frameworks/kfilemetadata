@@ -10,6 +10,7 @@ kfilemetadata (5.0.0a-0ubuntu1~ubuntu14.10~ppa1) utopic; urgency=medium
   * Add Replace -data
   * New upstream tarball
   * Add new lib
+  * Add replace/conflict to resolve file conflict on install 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:17:20 +0200
 
