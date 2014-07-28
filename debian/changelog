@@ -1,4 +1,11 @@
-kfilemetadata (5.0.0a-0ubuntu1) UNRELEASED; urgency=medium
+kfilemetadata-kf5 (5.0.0a-0ubuntu1) utopic; urgency=medium
+
+  * Upload to Ubuntu archive to upgrade Baloo to KF5
+  * Rename source to allow kdelibs4 version to co-exist
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 28 Jul 2014 17:20:53 +0200
+
+kfilemetadata (5.0.0a-0ubuntu1~ubuntu14.10~ppa4) utopic; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -10,8 +17,8 @@ kfilemetadata (5.0.0a-0ubuntu1) UNRELEASED; urgency=medium
   * Add Replace -data
   * New upstream tarball
   * Add new lib
-  * Add replace/conflict to resolve file conflict on install 
-  * Update watch to http://download.kde.org 
+  * Add replace/conflict to resolve file conflict on install
+  * Update watch to http://download.kde.org
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:17:20 +0200
 
@@ -22,7 +29,7 @@ kfilemetadata (4:4.98.0-0ubuntu1) utopic; urgency=medium
   * Upstream renamed to kfilemetadata
 
   [ Scarlett Clark ]
-  * Fix install filesrename package to match lib. 
+  * Fix install files, rename package to match lib.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 14:36:36 +0200
 
