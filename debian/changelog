@@ -1,3 +1,9 @@
+kfilemetadata-kf5 (5.0.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 16:54:52 +0200
+
 kfilemetadata-kf5 (5.0.0a-0ubuntu1) utopic; urgency=medium
 
   * Upload to Ubuntu archive to upgrade Baloo to KF5
