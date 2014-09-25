@@ -66,7 +66,7 @@ Description: library for extracting file metadata
  .
  This package contains the file type plugins.
 
-Package: libkf5filemetadata1-dev
+Package: libkf5filemetadata-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5filemetadata1 (= ${binary:Version}),
