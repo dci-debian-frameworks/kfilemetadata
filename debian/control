@@ -72,7 +72,8 @@ Architecture: any
 Depends: libkf5filemetadata1 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: libkf5filemetadata-dev
+Conflicts: libkf5filemetadata1-dev
+Replaces: libkf5filemetadata1-dev
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
