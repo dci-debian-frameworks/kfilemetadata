@@ -4,4 +4,4 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=kf5filemetadata1-dbg
+	$(overridden_command) --dbg-package=kf5filemetadata2-dbg

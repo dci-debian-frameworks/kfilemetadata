@@ -30,26 +30,15 @@ Homepage: https://projects.kde.org/projects/kde/workspace/kfilemetadata
 Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kfilemetadata
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kfilemetadata
 
-Package: libkf5filemetadata1
+Package: libkf5filemetadata2
 Section: libs
 Architecture: any
 Conflicts: libkf5filemetadata5
 Replaces: libkf5filemetadata5
-Depends: libkf5filemetadata-data (= ${binary:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
 Multi-Arch: same
 Recommends: libkf5filemetadata-bin (= ${binary:Version})
-Description: library for extracting file metadata
- This library is for extracting file metadata.
- .
- kfilemetadata is part of the KDE Plasma desktop.
-
-Package: libkf5filemetadata-data
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Multi-Arch: foreign
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
@@ -69,11 +58,10 @@ Description: library for extracting file metadata
 Package: libkf5filemetadata-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5filemetadata1 (= ${binary:Version}),
+Depends: libkf5filemetadata2 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: libkf5filemetadata1-dev
-Replaces: libkf5filemetadata1-dev
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
@@ -81,11 +69,11 @@ Description: library for extracting file metadata
  .
  This package contains the development files.
 
-Package: kf5filemetadata1-dbg
+Package: kf5filemetadata2-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: libkf5filemetadata1 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5filemetadata2 (= ${binary:Version}), ${misc:Depends}
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
