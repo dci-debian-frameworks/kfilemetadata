@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0+git20141003 i386
+# SymbolsHelper-Confirmed: 5.0.95+git20141003 i386
 libKF5FileMetaData.so.2 libkf5filemetadata2 #MINVER#, libkf5filemetadata-bin
  _ZN13KFileMetaData12PropertyInfo8fromNameERK7QString@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoC1ENS_8Property8PropertyE@Base 5.0.0
@@ -8,24 +8,24 @@ libKF5FileMetaData.so.2 libkf5filemetadata2 #MINVER#, libkf5filemetadata-bin
  _ZN13KFileMetaData12PropertyInfoD1Ev@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoD2Ev@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoaSERKS0_@Base 5.0.2+git20140925
- _ZN13KFileMetaData12UserMetaData10removeTagsERK11QStringList@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData12hasAttributeERK7QString@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData12setAttributeERK7QStringS3_@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData14setUserCommentERK7QString@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData6addTagERK7QString@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData7addTagsERK11QStringList@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData7setTagsERK11QStringList@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData9attributeERK7QString@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData9removeTagERK7QString@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaData9setRatingEi@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaDataC1ERK7QString@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaDataC1ERKS0_@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaDataC2ERK7QString@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaDataC2ERKS0_@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaDataD0Ev@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaDataD1Ev@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaDataD2Ev@Base 5.2.0+git20141003
- _ZN13KFileMetaData12UserMetaDataaSERKS0_@Base 5.2.0+git20141003
+ _ZN13KFileMetaData12UserMetaData10removeTagsERK11QStringList@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData12hasAttributeERK7QString@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData12setAttributeERK7QStringS3_@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData14setUserCommentERK7QString@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData6addTagERK7QString@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData7addTagsERK11QStringList@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData7setTagsERK11QStringList@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData9attributeERK7QString@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData9removeTagERK7QString@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaData9setRatingEi@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaDataC1ERK7QString@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaDataC1ERKS0_@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaDataC2ERK7QString@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaDataC2ERKS0_@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaDataD0Ev@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaDataD1Ev@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaDataD2Ev@Base 5.0.95+git20141003
+ _ZN13KFileMetaData12UserMetaDataaSERKS0_@Base 5.0.95+git20141003
  _ZN13KFileMetaData15ExtractorPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.0
  _ZN13KFileMetaData15ExtractorPlugin11qt_metacastEPKc@Base 5.0.0
  _ZN13KFileMetaData15ExtractorPlugin16staticMetaObjectE@Base 5.0.0
@@ -79,11 +79,11 @@ libKF5FileMetaData.so.2 libkf5filemetadata2 #MINVER#, libkf5filemetadata-bin
  _ZNK13KFileMetaData12PropertyInfo8propertyEv@Base 5.0.0
  _ZNK13KFileMetaData12PropertyInfo9valueTypeEv@Base 5.0.0
  _ZNK13KFileMetaData12PropertyInfoeqERKS0_@Base 5.0.2+git20140925
- _ZNK13KFileMetaData12UserMetaData11isSupportedEv@Base 5.2.0+git20141003
- _ZNK13KFileMetaData12UserMetaData11userCommentEv@Base 5.2.0+git20141003
- _ZNK13KFileMetaData12UserMetaData4tagsEv@Base 5.2.0+git20141003
- _ZNK13KFileMetaData12UserMetaData6ratingEv@Base 5.2.0+git20141003
- _ZNK13KFileMetaData12UserMetaData8filePathEv@Base 5.2.0+git20141003
+ _ZNK13KFileMetaData12UserMetaData11isSupportedEv@Base 5.0.95+git20141003
+ _ZNK13KFileMetaData12UserMetaData11userCommentEv@Base 5.0.95+git20141003
+ _ZNK13KFileMetaData12UserMetaData4tagsEv@Base 5.0.95+git20141003
+ _ZNK13KFileMetaData12UserMetaData6ratingEv@Base 5.0.95+git20141003
+ _ZNK13KFileMetaData12UserMetaData8filePathEv@Base 5.0.95+git20141003
  _ZNK13KFileMetaData15ExtractorPlugin10metaObjectEv@Base 5.0.0
  _ZNK13KFileMetaData16ExtractionResult10inputFlagsEv@Base 5.0.0
  _ZNK13KFileMetaData16ExtractionResult13inputMimetypeEv@Base 5.0.0
@@ -98,19 +98,19 @@ libKF5FileMetaData.so.2 libkf5filemetadata2 #MINVER#, libkf5filemetadata-bin
  _ZNK13KFileMetaData8TypeInfo4nameEv@Base 5.0.0
  _ZNK13KFileMetaData8TypeInfo4typeEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData9Extractor9mimetypesEv@Base 5.0.2+git20140925
- _ZTIN13KFileMetaData12UserMetaDataE@Base 5.2.0+git20141003
+ _ZTIN13KFileMetaData12UserMetaDataE@Base 5.0.95+git20141003
  _ZTIN13KFileMetaData15ExtractorPluginE@Base 5.0.0
  _ZTIN13KFileMetaData16ExtractionResultE@Base 5.0.0
  _ZTIN13KFileMetaData19ExtractorCollectionE@Base 5.0.2+git20140925
  _ZTIN13KFileMetaData22SimpleExtractionResultE@Base 5.0.2+git20140925
  _ZTIN13KFileMetaData9ExtractorE@Base 5.0.2+git20140925
- _ZTSN13KFileMetaData12UserMetaDataE@Base 5.2.0+git20141003
+ _ZTSN13KFileMetaData12UserMetaDataE@Base 5.0.95+git20141003
  _ZTSN13KFileMetaData15ExtractorPluginE@Base 5.0.0
  _ZTSN13KFileMetaData16ExtractionResultE@Base 5.0.0
  _ZTSN13KFileMetaData19ExtractorCollectionE@Base 5.0.2+git20140925
  _ZTSN13KFileMetaData22SimpleExtractionResultE@Base 5.0.2+git20140925
  _ZTSN13KFileMetaData9ExtractorE@Base 5.0.2+git20140925
- _ZTVN13KFileMetaData12UserMetaDataE@Base 5.2.0+git20141003
+ _ZTVN13KFileMetaData12UserMetaDataE@Base 5.0.95+git20141003
  _ZTVN13KFileMetaData15ExtractorPluginE@Base 5.0.0
  _ZTVN13KFileMetaData16ExtractionResultE@Base 5.0.0
  _ZTVN13KFileMetaData19ExtractorCollectionE@Base 5.0.2+git20140925
