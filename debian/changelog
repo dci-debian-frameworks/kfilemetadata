@@ -1,3 +1,9 @@
+kfilemetadata-kf5 (5.1.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 07 Nov 2014 03:08:02 +0000
+
 kfilemetadata-kf5 (5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
