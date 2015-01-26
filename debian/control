@@ -33,11 +33,22 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kfilemetadata.git
 Package: libkf5filemetadata3
 Section: libs
 Architecture: any
-Conflicts: libkf5filemetadata5 (<< 5.0.0a)
-Replaces: libkf5filemetadata5 (<< 5.0.0a)
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5filemetadata-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Multi-Arch: same
 Recommends: libkf5filemetadata-bin (= ${binary:Version})
+Description: library for extracting file metadata
+ This library is for extracting file metadata.
+ .
+ kfilemetadata is part of the KDE Plasma desktop.
+
+Package: libkf5filemetadata-data
+Architecture: all
+Conflicts: libkf5filemetadata2 (<< 5.2.0), libkf5filemetadata5 (<< 5.0.0a)
+Replaces: libkf5filemetadata2 (<< 5.2.0), libkf5filemetadata5 (<< 5.0.0a)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: foreign
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
