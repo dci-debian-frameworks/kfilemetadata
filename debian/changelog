@@ -7,6 +7,9 @@ kfilemetadata-kf5 (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix Replace/Conflict of the library package libkf5filemetadata5
     (a previously incorrectly used name) to use an actual version,
     otherwise we cannot ever go there again
+  * Split translations into a data package to avoid file conflicts on
+    soversion bumps and subsequently forgetting to add a conflict in the
+    packaging
 
  -- Harald Sitter <sitter@kde.org>  Mon, 26 Jan 2015 13:58:41 +0100
 
