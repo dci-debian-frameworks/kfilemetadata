@@ -46,8 +46,8 @@ Description: library for extracting file metadata
 
 Package: libkf5filemetadata-data
 Architecture: all
-Conflicts: libkf5filemetadata2 (<< 5.2.0), libkf5filemetadata5 (<< 5.0.0a)
-Replaces: libkf5filemetadata2 (<< 5.2.0), libkf5filemetadata5 (<< 5.0.0a)
+Conflicts: libkf5filemetadata2 (<< 5.6.0), libkf5filemetadata5 (<< 5.0.0a)
+Replaces: libkf5filemetadata2 (<< 5.6.0), libkf5filemetadata5 (<< 5.0.0a)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
 Description: library for extracting file metadata
