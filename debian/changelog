@@ -1,3 +1,9 @@
+kfilemetadata-kf5 (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 26 Jan 2015 13:58:41 +0100
+
 kfilemetadata-kf5 (5.5.95-0ubuntu1) vivid; urgency=medium
 
   * New upstream beta release
