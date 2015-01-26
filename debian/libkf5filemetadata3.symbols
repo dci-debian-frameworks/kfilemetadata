@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.1.0.1 amd64
-libKF5FileMetaData.so.2 libkf5filemetadata2 #MINVER#
+libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData12PropertyInfo8fromNameERK7QString@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoC1ENS_8Property8PropertyE@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoC1ERKS0_@Base 5.0.0
@@ -8,15 +8,11 @@ libKF5FileMetaData.so.2 libkf5filemetadata2 #MINVER#
  _ZN13KFileMetaData12PropertyInfoD1Ev@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoD2Ev@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoaSERKS0_@Base 5.0.2+git20140925
- _ZN13KFileMetaData12UserMetaData10removeTagsERK11QStringList@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData12hasAttributeERK7QString@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData12setAttributeERK7QStringS3_@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData14setUserCommentERK7QString@Base 5.1.0.1
- _ZN13KFileMetaData12UserMetaData6addTagERK7QString@Base 5.1.0.1
- _ZN13KFileMetaData12UserMetaData7addTagsERK11QStringList@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData7setTagsERK11QStringList@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData9attributeERK7QString@Base 5.1.0.1
- _ZN13KFileMetaData12UserMetaData9removeTagERK7QString@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData9setRatingEi@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaDataC1ERK7QString@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaDataC1ERKS0_@Base 5.1.0.1
