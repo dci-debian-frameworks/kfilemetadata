@@ -31,11 +31,11 @@ Homepage: https://projects.kde.org/projects/kde/workspace/kfilemetadata
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kfilemetadata.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kfilemetadata.git
 
-Package: libkf5filemetadata2
+Package: libkf5filemetadata3
 Section: libs
 Architecture: any
-Conflicts: libkf5filemetadata5
-Replaces: libkf5filemetadata5
+Conflicts: libkf5filemetadata5 (<< 5.0.0a)
+Replaces: libkf5filemetadata5 (<< 5.0.0a)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Recommends: libkf5filemetadata-bin (= ${binary:Version})
@@ -58,7 +58,7 @@ Description: library for extracting file metadata
 Package: libkf5filemetadata-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5filemetadata2 (= ${binary:Version}),
+Depends: libkf5filemetadata3 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: libkf5filemetadata1-dev
@@ -69,11 +69,11 @@ Description: library for extracting file metadata
  .
  This package contains the development files.
 
-Package: kf5filemetadata2-dbg
+Package: kf5filemetadata3-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: libkf5filemetadata2 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5filemetadata3 (= ${binary:Version}), ${misc:Depends}
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
