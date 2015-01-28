@@ -1,4 +1,4 @@
-kfilemetadata-kf5 (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
+kfilemetadata-kf5 (5.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Soversion bump from 2 to 3
