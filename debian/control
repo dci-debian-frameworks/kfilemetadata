@@ -36,6 +36,8 @@ Architecture: any
 Depends: libkf5filemetadata-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: libkf5filemetadata2 (<< 5.6.0)
+Replaces: libkf5filemetadata2 (<< 5.6.0)
 Multi-Arch: same
 Recommends: libkf5filemetadata-bin (= ${binary:Version})
 Description: library for extracting file metadata
@@ -45,7 +47,7 @@ Description: library for extracting file metadata
 
 Package: libkf5filemetadata-data
 Architecture: all
-Conflicts: libkf5filemetadata2 (<< 5.6.0), libkf5filemetadata5 (<< 5.0.0a)
+Breaks: libkf5filemetadata2 (<< 5.6.0), libkf5filemetadata5 (<< 5.0.0a)
 Replaces: libkf5filemetadata2 (<< 5.6.0), libkf5filemetadata5 (<< 5.0.0a)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
