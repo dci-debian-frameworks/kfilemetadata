@@ -19,7 +19,7 @@ Build-Depends: cmake (>= 2.8.12),
                libswscale-dev,
                libtag1-dev,
                pkg-config,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.16),
                qtbase5-dev (>= 5.2.0)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
