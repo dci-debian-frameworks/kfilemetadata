@@ -80,6 +80,7 @@ Description: library for extracting file metadata
 
 Package: kf5filemetadata3-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Recommends: qtbase5-dbg
 Depends: libkf5filemetadata3 (= ${binary:Version}), ${misc:Depends}
