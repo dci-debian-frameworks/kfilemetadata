@@ -1,5 +1,6 @@
-kfilemetadata-kf5 (5.6.0-0ubuntu2) UNRELEASED; urgency=medium
+kfilemetadata-kf5 (5.6.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * Resolve transitional problems from lib2 to lib3 package with
     APT. Apt would refuse to upgrade the new (re-introduced) data
     package as it replaces and breaks the lib2 package and for some
@@ -16,6 +17,9 @@ kfilemetadata-kf5 (5.6.0-0ubuntu2) UNRELEASED; urgency=medium
   * Also soften the transitional relationship of the -data package.
     Originally it had use Conflicts where it should have used Breaks
     because files had simply moved about, there is no inherent conflict.
+
+  [ Scarlett Clark ]
+  * New upstream release
 
  -- Harald Sitter <sitter@kde.org>  Thu, 29 Jan 2015 09:39:40 +0100
 
