@@ -1,4 +1,4 @@
-kfilemetadata-kf5 (5.6.1-0ubuntu1) UNRELEASED; urgency=medium
+kfilemetadata-kf5 (5.6.1-0ubuntu1) vivid; urgency=medium
 
   [ Harald Sitter ]
   * Resolve transitional problems from lib2 to lib3 package with
@@ -21,7 +21,7 @@ kfilemetadata-kf5 (5.6.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * New upstream release
 
- -- Harald Sitter <sitter@kde.org>  Thu, 29 Jan 2015 09:39:40 +0100
+ -- Harald Sitter <sitter@kde.org>  Mon, 23 Feb 2015 09:52:52 -0800
 
 kfilemetadata-kf5 (5.6.0-0ubuntu1) vivid; urgency=medium
 
