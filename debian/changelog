@@ -1,3 +1,9 @@
+kfilemetadata-kf5 (5.6.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Sun, 22 Feb 2015 16:41:23 -0800
+
 kfilemetadata-kf5 (5.6.0-1) experimental; urgency=medium
 
   [ Harald Sitter ]
