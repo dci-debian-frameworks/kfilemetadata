@@ -9,6 +9,31 @@ kfilemetadata-kf5 (5.6.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 09:57:20 +0100
 
+kfilemetadata-kf5 (5.6.1-0ubuntu1) vivid; urgency=medium
+
+  [ Harald Sitter ]
+  * Resolve transitional problems from lib2 to lib3 package with
+    APT. Apt would refuse to upgrade the new (re-introduced) data
+    package as it replaces and breaks the lib2 package and for some
+    reason Apt considers the data package to be less useful, so it
+    will hold lib2 and not upgrade which in turn results in the
+    removal of plama-desktop & plasma-workspace as they need lib3.
+    To prevent this problem also replicate the transition relationship
+    onto the lib3 package (now breaks/replaces the lib2 package). This
+    seems to give a sufficiently important package the breaks such
+    that apt would choose to remove lib2 and install lib3.
+    This transition is slightly unfortunate alltogether as it only
+    ended up being so complicated by having data in the lib package
+    to begin with.
+  * Also soften the transitional relationship of the -data package.
+    Originally it had use Conflicts where it should have used Breaks
+    because files had simply moved about, there is no inherent conflict.
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 23 Feb 2015 09:52:52 -0800
+
 kfilemetadata-kf5 (5.6.0-1) experimental; urgency=medium
 
   [ Harald Sitter ]
