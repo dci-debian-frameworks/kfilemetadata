@@ -1,6 +1,7 @@
 kfilemetadata-kf5 (5.9.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.9.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 12 May 2015 20:06:32 +0200
 
