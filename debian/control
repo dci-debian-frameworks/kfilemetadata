@@ -59,7 +59,7 @@ Description: library for extracting file metadata
 
 Package: libkf5filemetadata-bin
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, catdoc
+Depends: catdoc, ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: library for extracting file metadata
  This library is for extracting file metadata.
