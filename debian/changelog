@@ -1,8 +1,13 @@
 kfilemetadata-kf5 (5.9.1-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.9.0).
   * Update symbols files.
   * New upstream release (5.9.1).
+
+  [ Felix Geyer ]
+  * Move qtbase5-dev dependency from libkf5filemetadata3 to
+    libkf5filemetadata-dev. (Closes: #789655)
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:55:17 +0200
 
