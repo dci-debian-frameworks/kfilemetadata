@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # SymbolsHelper-Confirmed: 5.6.95 amd64
+=======
+# SymbolsHelper-Confirmed: 5.9.0 amd64
+>>>>>>> master
 libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData12PropertyInfo8fromNameERK7QString@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoC1ENS_8Property8PropertyE@Base 5.0.0
@@ -55,7 +59,11 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData22SimpleExtractionResultD1Ev@Base 5.0.2+git20140925
  _ZN13KFileMetaData22SimpleExtractionResultD2Ev@Base 5.0.2+git20140925
  _ZN13KFileMetaData22SimpleExtractionResultaSERKS0_@Base 5.0.2+git20140925
+<<<<<<< HEAD
  _ZN13KFileMetaData8TypeInfo8fromNameERK7QString@Base 5.6.95
+=======
+ _ZN13KFileMetaData8TypeInfo8fromNameERK7QString@Base 5.9.0
+>>>>>>> master
  _ZN13KFileMetaData8TypeInfoC1ENS_4Type4TypeE@Base 5.0.0
  _ZN13KFileMetaData8TypeInfoC1ERKS0_@Base 5.0.0
  _ZN13KFileMetaData8TypeInfoC2ENS_4Type4TypeE@Base 5.0.0
