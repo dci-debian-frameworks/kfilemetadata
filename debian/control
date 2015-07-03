@@ -20,7 +20,7 @@ Build-Depends: cmake (>= 2.8.12),
                libswscale-dev,
                libtag1-dev (>= 1.9~),
                pkg-config,
-               pkg-kde-tools (>= 0.15.16),
+               pkg-kde-tools (>= 0.15.18),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/kfilemetadata
@@ -47,10 +47,12 @@ Architecture: all
 Multi-Arch: foreign
 Breaks: kde-l10n (<= 4:4.14.0-1),
         libkf5filemetadata2 (<< 5.6.0),
-        libkf5filemetadata5 (<< 5.0.0a)
+        libkf5filemetadata5 (<< 5.0.0a),
+        ${kde-l10n:all}
 Replaces: kde-l10n (<= 4:4.14.0-1),
           libkf5filemetadata2 (<< 5.6.0),
-          libkf5filemetadata5 (<< 5.0.0a)
+          libkf5filemetadata5 (<< 5.0.0a),
+          ${kde-l10n:all}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for extracting file metadata
  This library is for extracting file metadata.
