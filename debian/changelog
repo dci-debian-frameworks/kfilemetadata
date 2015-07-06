@@ -2,6 +2,7 @@ kfilemetadata-kf5 (5.9.2-0ubuntu2) UNRELEASED; urgency=medium
 
   * Vivid backport 
   * Add new build dependency catdoc. 
+  * Add comma new depend. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 06 Jul 2015 09:40:58 -0700
 
