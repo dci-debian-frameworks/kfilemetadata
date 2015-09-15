@@ -1,8 +1,8 @@
-kfilemetadata-kf5 (5.14.0-1~) UNRELEASED; urgency=medium
+kfilemetadata-kf5 (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Sep 2015 00:27:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:49:28 +0200
 
 kfilemetadata-kf5 (5.13.0-1) unstable; urgency=medium
 
