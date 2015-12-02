@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: catdoc,
                cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.15.0~),
+               extra-cmake-modules (>= 5.16.0~),
                libattr1-dev,
                libavcodec-dev,
                libavdevice-dev,
@@ -14,14 +14,14 @@ Build-Depends: catdoc,
                libavutil-dev,
                libepub-dev,
                libexiv2-dev (>= 0.21),
-               libkf5archive-dev (>= 5.15.0~),
-               libkf5i18n-dev (>= 5.15.0~),
+               libkf5archive-dev (>= 5.16.0~),
+               libkf5i18n-dev (>= 5.16.0~),
                libpoppler-qt5-dev (>= 0.12.1),
                libpostproc-dev,
                libswscale-dev,
                libtag1-dev (>= 1.9~),
                pkg-config,
-               pkg-kde-tools (>= 0.15.16),
+               pkg-kde-tools (>= 0.15.18),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kfilemetadata
@@ -48,10 +48,12 @@ Architecture: all
 Multi-Arch: foreign
 Breaks: kde-l10n (<= 4:4.14.0-1),
         libkf5filemetadata2 (<< 5.6.0),
-        libkf5filemetadata5 (<< 5.0.0a)
+        libkf5filemetadata5 (<< 5.0.0a),
+        ${kde-l10n:all}
 Replaces: kde-l10n (<= 4:4.14.0-1),
           libkf5filemetadata2 (<< 5.6.0),
-          libkf5filemetadata5 (<< 5.0.0a)
+          libkf5filemetadata5 (<< 5.0.0a),
+          ${kde-l10n:all}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for extracting file metadata
  This library is for extracting file metadata.
