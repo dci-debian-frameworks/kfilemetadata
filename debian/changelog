@@ -1,3 +1,10 @@
+kfilemetadata-kf5 (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Debian merge: Remaining changes:
+    Change l10n-packages.mk path to 3 to fix build. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 07 Dec 2015 05:47:55 -0800
+
 kfilemetadata-kf5 (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
