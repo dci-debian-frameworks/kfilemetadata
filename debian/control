@@ -84,16 +84,3 @@ Description: library for extracting file metadata
  kfilemetadata is part of the KDE Plasma desktop.
  .
  This package contains the development files.
-
-Package: kf5filemetadata3-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Recommends: qtbase5-dbg
-Depends: libkf5filemetadata3 (= ${binary:Version}), ${misc:Depends}
-Description: library for extracting file metadata
- This library is for extracting file metadata.
- .
- kfilemetadata is part of the KDE Plasma desktop.
- .
- This package contains the debugging symbols.
