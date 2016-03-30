@@ -1,3 +1,21 @@
+kfilemetadata-kf5 (5.20.0-1~1.gbp8744b6) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @8744b6f7cb8f77030ddfb5023d92b616a2bc4b9a **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update the vcs entries, kfilemetadata is a framework
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 11:57:05 +0200
+
 kfilemetadata-kf5 (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
