@@ -1,6 +1,6 @@
-kfilemetadata-kf5 (5.20.0-1~1.gbp8744b6) UNRELEASED; urgency=medium
+kfilemetadata-kf5 (5.20.0-1~2.gbp4b1523) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8744b6f7cb8f77030ddfb5023d92b616a2bc4b9a **
+  ** SNAPSHOT build @4b1523fd686c2af6457652fc9b1e1791d40b380b **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +13,9 @@ kfilemetadata-kf5 (5.20.0-1~1.gbp8744b6) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 11:57:05 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:52:14 +0200
 
 kfilemetadata-kf5 (5.19.0-1) experimental; urgency=medium
 
