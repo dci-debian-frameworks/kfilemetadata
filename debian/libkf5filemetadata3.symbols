@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.19.0 amd64
+# SymbolsHelper-Confirmed: 5.21.0 amd64 armhf i386
 libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData12PropertyInfo8fromNameERK7QString@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoC1ENS_8Property8PropertyE@Base 5.0.0
@@ -12,6 +12,9 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData12UserMetaData12setAttributeERK7QStringS3_@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData12setOriginUrlERK4QUrl@Base 5.19.0
  _ZN13KFileMetaData12UserMetaData14setUserCommentERK7QString@Base 5.1.0.1
+ _ZN13KFileMetaData12UserMetaData20setOriginEmailSenderERK7QString@Base 5.21.0
+ _ZN13KFileMetaData12UserMetaData21setOriginEmailSubjectERK7QString@Base 5.21.0
+ _ZN13KFileMetaData12UserMetaData23setOriginEmailMessageIdERK7QString@Base 5.21.0
  _ZN13KFileMetaData12UserMetaData7setTagsERK11QStringList@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData9attributeERK7QString@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData9setRatingEi@Base 5.1.0.1
@@ -79,6 +82,9 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZNK13KFileMetaData12PropertyInfoeqERKS0_@Base 5.0.2+git20140925
  _ZNK13KFileMetaData12UserMetaData11isSupportedEv@Base 5.1.0.1
  _ZNK13KFileMetaData12UserMetaData11userCommentEv@Base 5.1.0.1
+ _ZNK13KFileMetaData12UserMetaData17originEmailSenderEv@Base 5.21.0
+ _ZNK13KFileMetaData12UserMetaData18originEmailSubjectEv@Base 5.21.0
+ _ZNK13KFileMetaData12UserMetaData20originEmailMessageIdEv@Base 5.21.0
  _ZNK13KFileMetaData12UserMetaData4tagsEv@Base 5.1.0.1
  _ZNK13KFileMetaData12UserMetaData6ratingEv@Base 5.1.0.1
  _ZNK13KFileMetaData12UserMetaData8filePathEv@Base 5.1.0.1
