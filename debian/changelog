@@ -1,6 +1,6 @@
-kfilemetadata-kf5 (5.21.0-1~3.gbp8a5eca) UNRELEASED; urgency=medium
+kfilemetadata-kf5 (5.21.0-1~4.gbpbf5536) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8a5ecaef0b36cdc35ac5bc3470a87e74062f6e69 **
+  ** SNAPSHOT build @bf55362bb4944f9259dbc71e624fea38732ce170 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,6 +13,7 @@ kfilemetadata-kf5 (5.21.0-1~3.gbp8a5eca) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
   * Update symbols files.
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -21,7 +22,7 @@ kfilemetadata-kf5 (5.21.0-1~3.gbp8a5eca) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 15:56:49 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 05 May 2016 22:32:18 +0200
 
 kfilemetadata-kf5 (5.19.0-1) experimental; urgency=medium
 
