@@ -1,11 +1,10 @@
-kfilemetadata-kf5 (5.22.0-1~2.gbpf341e9) UNRELEASED; urgency=medium
+kfilemetadata-kf5 (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @f341e9b605f1bca785e1b02b55bb5cd948fa96c5 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 17:52:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 May 2016 16:10:06 +0200
 
 kfilemetadata-kf5 (5.21.0-1) experimental; urgency=medium
 
