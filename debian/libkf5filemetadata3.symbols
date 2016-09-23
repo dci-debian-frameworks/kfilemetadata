@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.19.0 amd64
+# SymbolsHelper-Confirmed: 5.22.0 amd64 armhf i386
 libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData12PropertyInfo8fromNameERK7QString@Base 5.0.0
  _ZN13KFileMetaData12PropertyInfoC1ENS_8Property8PropertyE@Base 5.0.0
@@ -12,6 +12,9 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData12UserMetaData12setAttributeERK7QStringS3_@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData12setOriginUrlERK4QUrl@Base 5.19.0
  _ZN13KFileMetaData12UserMetaData14setUserCommentERK7QString@Base 5.1.0.1
+ _ZN13KFileMetaData12UserMetaData20setOriginEmailSenderERK7QString@Base 5.21.0
+ _ZN13KFileMetaData12UserMetaData21setOriginEmailSubjectERK7QString@Base 5.21.0
+ _ZN13KFileMetaData12UserMetaData23setOriginEmailMessageIdERK7QString@Base 5.21.0
  _ZN13KFileMetaData12UserMetaData7setTagsERK11QStringList@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData9attributeERK7QString@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaData9setRatingEi@Base 5.1.0.1
@@ -23,6 +26,14 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData12UserMetaDataD1Ev@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaDataD2Ev@Base 5.1.0.1
  _ZN13KFileMetaData12UserMetaDataaSERKS0_@Base 5.1.0.1
+ _ZN13KFileMetaData12WriterPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.22.0
+ _ZN13KFileMetaData12WriterPlugin11qt_metacastEPKc@Base 5.22.0
+ _ZN13KFileMetaData12WriterPlugin16staticMetaObjectE@Base 5.22.0
+ _ZN13KFileMetaData12WriterPluginC1EP7QObject@Base 5.22.0
+ _ZN13KFileMetaData12WriterPluginC2EP7QObject@Base 5.22.0
+ _ZN13KFileMetaData12WriterPluginD0Ev@Base 5.22.0
+ _ZN13KFileMetaData12WriterPluginD1Ev@Base 5.22.0
+ _ZN13KFileMetaData12WriterPluginD2Ev@Base 5.22.0
  _ZN13KFileMetaData15ExtractorPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.0
  _ZN13KFileMetaData15ExtractorPlugin11qt_metacastEPKc@Base 5.0.0
  _ZN13KFileMetaData15ExtractorPlugin16staticMetaObjectE@Base 5.0.0
@@ -40,6 +51,11 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData16ExtractionResultD0Ev@Base 5.0.0
  _ZN13KFileMetaData16ExtractionResultD1Ev@Base 5.0.0
  _ZN13KFileMetaData16ExtractionResultD2Ev@Base 5.0.0
+ _ZN13KFileMetaData16WriterCollectionC1Ev@Base 5.22.0
+ _ZN13KFileMetaData16WriterCollectionC2Ev@Base 5.22.0
+ _ZN13KFileMetaData16WriterCollectionD0Ev@Base 5.22.0
+ _ZN13KFileMetaData16WriterCollectionD1Ev@Base 5.22.0
+ _ZN13KFileMetaData16WriterCollectionD2Ev@Base 5.22.0
  _ZN13KFileMetaData19ExtractorCollectionC1Ev@Base 5.0.2+git20140925
  _ZN13KFileMetaData19ExtractorCollectionC2Ev@Base 5.0.2+git20140925
  _ZN13KFileMetaData19ExtractorCollectionD0Ev@Base 5.0.2+git20140925
@@ -56,6 +72,12 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData22SimpleExtractionResultD1Ev@Base 5.0.2+git20140925
  _ZN13KFileMetaData22SimpleExtractionResultD2Ev@Base 5.0.2+git20140925
  _ZN13KFileMetaData22SimpleExtractionResultaSERKS0_@Base 5.0.2+git20140925
+ _ZN13KFileMetaData6Writer5writeERKNS_9WriteDataE@Base 5.22.0
+ _ZN13KFileMetaData6WriterC1Ev@Base 5.22.0
+ _ZN13KFileMetaData6WriterC2Ev@Base 5.22.0
+ _ZN13KFileMetaData6WriterD0Ev@Base 5.22.0
+ _ZN13KFileMetaData6WriterD1Ev@Base 5.22.0
+ _ZN13KFileMetaData6WriterD2Ev@Base 5.22.0
  _ZN13KFileMetaData8TypeInfo8fromNameERK7QString@Base 5.9.0
  _ZN13KFileMetaData8TypeInfoC1ENS_4Type4TypeE@Base 5.0.0
  _ZN13KFileMetaData8TypeInfoC1ERKS0_@Base 5.0.0
@@ -71,6 +93,15 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData9ExtractorD0Ev@Base 5.0.2+git20140925
  _ZN13KFileMetaData9ExtractorD1Ev@Base 5.0.2+git20140925
  _ZN13KFileMetaData9ExtractorD2Ev@Base 5.0.2+git20140925
+ _ZN13KFileMetaData9WriteData3addENS_8Property8PropertyERK8QVariant@Base 5.22.0
+ _ZN13KFileMetaData9WriteDataC1ERK7QStringS3_@Base 5.22.0
+ _ZN13KFileMetaData9WriteDataC1ERKS0_@Base 5.22.0
+ _ZN13KFileMetaData9WriteDataC2ERK7QStringS3_@Base 5.22.0
+ _ZN13KFileMetaData9WriteDataC2ERKS0_@Base 5.22.0
+ _ZN13KFileMetaData9WriteDataD0Ev@Base 5.22.0
+ _ZN13KFileMetaData9WriteDataD1Ev@Base 5.22.0
+ _ZN13KFileMetaData9WriteDataD2Ev@Base 5.22.0
+ _ZN13KFileMetaData9WriteDataaSERKS0_@Base 5.22.0
  _ZNK13KFileMetaData12PropertyInfo11displayNameEv@Base 5.0.0
  _ZNK13KFileMetaData12PropertyInfo15shouldBeIndexedEv@Base 5.0.0
  _ZNK13KFileMetaData12PropertyInfo4nameEv@Base 5.0.0
@@ -79,39 +110,62 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZNK13KFileMetaData12PropertyInfoeqERKS0_@Base 5.0.2+git20140925
  _ZNK13KFileMetaData12UserMetaData11isSupportedEv@Base 5.1.0.1
  _ZNK13KFileMetaData12UserMetaData11userCommentEv@Base 5.1.0.1
+ _ZNK13KFileMetaData12UserMetaData17originEmailSenderEv@Base 5.21.0
+ _ZNK13KFileMetaData12UserMetaData18originEmailSubjectEv@Base 5.21.0
+ _ZNK13KFileMetaData12UserMetaData20originEmailMessageIdEv@Base 5.21.0
  _ZNK13KFileMetaData12UserMetaData4tagsEv@Base 5.1.0.1
  _ZNK13KFileMetaData12UserMetaData6ratingEv@Base 5.1.0.1
  _ZNK13KFileMetaData12UserMetaData8filePathEv@Base 5.1.0.1
  _ZNK13KFileMetaData12UserMetaData9originUrlEv@Base 5.19.0
+ _ZNK13KFileMetaData12WriterPlugin10metaObjectEv@Base 5.22.0
  _ZNK13KFileMetaData15ExtractorPlugin10metaObjectEv@Base 5.0.0
  _ZNK13KFileMetaData16ExtractionResult10inputFlagsEv@Base 5.0.0
  _ZNK13KFileMetaData16ExtractionResult13inputMimetypeEv@Base 5.0.0
  _ZNK13KFileMetaData16ExtractionResult8inputUrlEv@Base 5.0.0
+ _ZNK13KFileMetaData16WriterCollection12fetchWritersERK7QString@Base 5.22.0
+ _ZNK13KFileMetaData16WriterCollection23WriterCollectionPrivate10allWritersEv@Base 5.22.0
  _ZNK13KFileMetaData19ExtractorCollection15fetchExtractorsERK7QString@Base 5.0.2+git20140925
  _ZNK13KFileMetaData19ExtractorCollection7Private13allExtractorsEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData22SimpleExtractionResult10propertiesEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData22SimpleExtractionResult4textEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData22SimpleExtractionResult5typesEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData22SimpleExtractionResulteqERKS0_@Base 5.0.2+git20140925
+ _ZNK13KFileMetaData6Writer9mimetypesEv@Base 5.22.0
  _ZNK13KFileMetaData8TypeInfo11displayNameEv@Base 5.0.0
  _ZNK13KFileMetaData8TypeInfo4nameEv@Base 5.0.0
  _ZNK13KFileMetaData8TypeInfo4typeEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData9Extractor9mimetypesEv@Base 5.0.2+git20140925
+ _ZNK13KFileMetaData9WriteData13inputMimetypeEv@Base 5.22.0
+ _ZNK13KFileMetaData9WriteData16getAllPropertiesEv@Base 5.22.0
+ _ZNK13KFileMetaData9WriteData8inputUrlEv@Base 5.22.0
+ _ZNK13KFileMetaData9WriteDataeqERKS0_@Base 5.22.0
  _ZTIN13KFileMetaData12UserMetaDataE@Base 5.1.0.1
+ _ZTIN13KFileMetaData12WriterPluginE@Base 5.22.0
  _ZTIN13KFileMetaData15ExtractorPluginE@Base 5.0.0
  _ZTIN13KFileMetaData16ExtractionResultE@Base 5.0.0
+ _ZTIN13KFileMetaData16WriterCollectionE@Base 5.22.0
  _ZTIN13KFileMetaData19ExtractorCollectionE@Base 5.0.2+git20140925
  _ZTIN13KFileMetaData22SimpleExtractionResultE@Base 5.0.2+git20140925
+ _ZTIN13KFileMetaData6WriterE@Base 5.22.0
  _ZTIN13KFileMetaData9ExtractorE@Base 5.0.2+git20140925
+ _ZTIN13KFileMetaData9WriteDataE@Base 5.22.0
  _ZTSN13KFileMetaData12UserMetaDataE@Base 5.1.0.1
+ _ZTSN13KFileMetaData12WriterPluginE@Base 5.22.0
  _ZTSN13KFileMetaData15ExtractorPluginE@Base 5.0.0
  _ZTSN13KFileMetaData16ExtractionResultE@Base 5.0.0
+ _ZTSN13KFileMetaData16WriterCollectionE@Base 5.22.0
  _ZTSN13KFileMetaData19ExtractorCollectionE@Base 5.0.2+git20140925
  _ZTSN13KFileMetaData22SimpleExtractionResultE@Base 5.0.2+git20140925
+ _ZTSN13KFileMetaData6WriterE@Base 5.22.0
  _ZTSN13KFileMetaData9ExtractorE@Base 5.0.2+git20140925
+ _ZTSN13KFileMetaData9WriteDataE@Base 5.22.0
  _ZTVN13KFileMetaData12UserMetaDataE@Base 5.1.0.1
+ _ZTVN13KFileMetaData12WriterPluginE@Base 5.22.0
  _ZTVN13KFileMetaData15ExtractorPluginE@Base 5.0.0
  _ZTVN13KFileMetaData16ExtractionResultE@Base 5.0.0
+ _ZTVN13KFileMetaData16WriterCollectionE@Base 5.22.0
  _ZTVN13KFileMetaData19ExtractorCollectionE@Base 5.0.2+git20140925
  _ZTVN13KFileMetaData22SimpleExtractionResultE@Base 5.0.2+git20140925
+ _ZTVN13KFileMetaData6WriterE@Base 5.22.0
  _ZTVN13KFileMetaData9ExtractorE@Base 5.0.2+git20140925
+ _ZTVN13KFileMetaData9WriteDataE@Base 5.22.0

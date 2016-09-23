@@ -5,24 +5,24 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
                libattr1-dev,
                libavcodec-dev,
-               libavdevice-dev,
+               libavdevice-dev (>= 1.0~),
                libavformat-dev,
                libavutil-dev,
                libepub-dev,
                libexiv2-dev (>= 0.21),
-               libkf5archive-dev (>= 5.19.0~),
-               libkf5i18n-dev (>= 5.19.0~),
+               libkf5archive-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.25.0~),
                libpoppler-qt5-dev (>= 0.12.1),
                libpostproc-dev,
                libswscale-dev,
                libtag1-dev (>= 1.9~),
                pkg-config,
                pkg-kde-tools (>= 0.15.18),
-               qtbase5-dev (>= 5.4.0~)
-Standards-Version: 3.9.6
+               qtbase5-dev (>= 5.5.0~)
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kfilemetadata
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kfilemetadata.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kfilemetadata.git
@@ -33,7 +33,9 @@ Architecture: any
 Depends: libkf5filemetadata-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: libkf5filemetadata2 (<< 5.6.0)
+Breaks: baloo-kf5 (<< 5.25),
+        libkf5baloo5 (<< 5.25),
+        libkf5filemetadata2 (<< 5.6.0)
 Replaces: libkf5filemetadata2 (<< 5.6.0)
 Multi-Arch: same
 Recommends: libkf5filemetadata-bin (= ${binary:Version})
@@ -74,7 +76,7 @@ Package: libkf5filemetadata-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5filemetadata3 (= ${binary:Version}),
-         qtbase5-dev (>= 5.4.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: libkf5filemetadata1-dev
@@ -84,3 +86,4 @@ Description: library for extracting file metadata
  kfilemetadata is part of the KDE frameworks.
  .
  This package contains the development files.
+Breaks: baloo-kf5-dev (<< 5.25)
