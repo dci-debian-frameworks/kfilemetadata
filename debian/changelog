@@ -1,3 +1,11 @@
+kfilemetadata-kf5 (5.27.0-1~1.gbp5632aa) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @5632aaec89140dd1d8a8233bcdb35265322edd43 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 11:52:35 +0200
+
 kfilemetadata-kf5 (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
