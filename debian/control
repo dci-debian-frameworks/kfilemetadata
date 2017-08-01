@@ -83,11 +83,23 @@ Depends: libkf5filemetadata3 (= ${binary:Version}),
          qtbase5-dev (>= 5.6.0~),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: libkf5filemetadata-doc (= ${source:Version})
 Conflicts: libkf5filemetadata1-dev
+Breaks: baloo-kf5-dev (<< 5.36)
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
  kfilemetadata is part of the KDE Plasma desktop.
  .
  This package contains the development files.
-Breaks: baloo-kf5-dev (<< 5.36)
+
+Package: libkf5filemetadata-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library for extracting file metadata (documentation)
+ This library is for extracting file metadata.
+ .
+ kfilemetadata is part of the KDE Plasma desktop.
+ .
+ This package contains the qch documentation files.
