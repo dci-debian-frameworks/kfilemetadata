@@ -86,6 +86,7 @@ Description: library for extracting file metadata (documentation)
  kfilemetadata is part of the KDE Plasma desktop.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5filemetadata3
 Section: libs
