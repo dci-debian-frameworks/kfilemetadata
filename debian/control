@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 3.0~),
                qtbase5-dev (>= 5.7.0~),
                qttools5-dev-tools,
 Standards-Version: 4.1.0
-Homepage: https://projects.kde.org/projects/kde/workspace/kfilemetadata
+Homepage: https://projects.kde.org/projects/frameworks/kfilemetadata
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kfilemetadata.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kfilemetadata.git
 
@@ -38,7 +38,7 @@ Multi-Arch: same
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
- kfilemetadata is part of the KDE Plasma desktop.
+ kfilemetadata is part of the KDE frameworks.
  .
  This package contains the file type plugins.
 
@@ -57,7 +57,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
- kfilemetadata is part of the KDE Plasma desktop.
+ kfilemetadata is part of the KDE frameworks.
 
 Package: libkf5filemetadata-dev
 Section: libdevel
@@ -72,7 +72,7 @@ Breaks: baloo-kf5-dev (<< 5.37)
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
- kfilemetadata is part of the KDE Plasma desktop.
+ kfilemetadata is part of the KDE frameworks.
  .
  This package contains the development files.
 
@@ -103,4 +103,4 @@ Recommends: libkf5filemetadata-bin (= ${binary:Version})
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
- kfilemetadata is part of the KDE Plasma desktop.
+ kfilemetadata is part of the KDE frameworks.
