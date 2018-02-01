@@ -21,7 +21,8 @@ Build-Depends: cmake (>= 2.8.12),
                libtag1-dev (>= 1.9~),
                pkg-config,
                pkg-kde-tools (>= 0.15.18),
-               qtbase5-dev (>= 5.5.0~)
+               qtbase5-dev (>= 5.5.0~),
+               qtmultimedia5-dev
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kfilemetadata
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kfilemetadata.git
