@@ -68,7 +68,7 @@ Depends: libkf5filemetadata3 (= ${binary:Version}),
          ${shlibs:Depends},
 Recommends: libkf5filemetadata-doc (= ${source:Version})
 Conflicts: libkf5filemetadata1-dev
-Breaks: baloo-kf5-dev (<< 5.41)
+Breaks: baloo-kf5-dev (<< 5.42)
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
@@ -94,8 +94,8 @@ Architecture: any
 Depends: libkf5filemetadata-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: baloo-kf5 (<< 5.41),
-        libkf5baloo5 (<< 5.41),
+Breaks: baloo-kf5 (<< 5.42),
+        libkf5baloo5 (<< 5.42),
         libkf5filemetadata2 (<< 5.6.0),
 Replaces: libkf5filemetadata2 (<< 5.6.0)
 Multi-Arch: same
